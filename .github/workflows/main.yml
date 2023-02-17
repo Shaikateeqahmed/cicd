@@ -9,5 +9,4 @@ jobs:
     steps : 
     - uses : actions/checkout@v3
     - name : print hello world
-      uses : print hello world
       run : node --version
