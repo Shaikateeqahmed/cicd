@@ -11,8 +11,6 @@ jobs:
     - name : print hello world
       run : node --version
     - name: Install Node.js 
-      with: 
-        - name: Install dependencies
-          run: npm install
-        - name: Run ESLint 
-          run: npx eslint
+      run: npm install
+    - name: Run ESLint 
+      run: npx eslint
